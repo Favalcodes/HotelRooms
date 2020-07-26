@@ -15,10 +15,11 @@
 
         <!-- Navigation menu -->
         <nav>
+            <div class="logo"><strong>Casa</strong></div>
+            <div class="hamburger-icon">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
             <ul class="nav-list">
-                <li class="logo">
-                    
-                </li>
                 <li class="nav-item">
                     <a href="#">Home</a>
                 </li>
@@ -33,6 +34,17 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- For mobile -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Home</a>
+              <a href="#">Facilities</a>
+              <a href="#">Rooms and Rates</a>
+              <a href="#">Contact Us</a>
+            </div>
+        </div>
 
         <!-- for the main header -->
         <div class="container">
@@ -51,7 +63,7 @@
     <!-- Main content -->
     <main>
         <section class="main">
-            <svg width="60" height="5">
+            <svg width="40" height="5" style="float: left;">
                 <rect width="60" height="5"/>
               </svg><h3>Trending</h3>
             <div class="row">
@@ -109,7 +121,7 @@
         </section>
 
         <section class="main">
-            <svg width="60" height="5">
+            <svg width="40" height="5" style="float: left;">
                 <rect width="60" height="5"/>
               </svg><h3>Hot Deals for You</h3>
             <div class="row">
@@ -205,47 +217,48 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-2">
-                <h4>Sites</h4>
+            <div class="col-2 suite">
+                <h4>Suites</h4>
                 <ul class="items">
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">London Standard</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Beach View</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Club Suites</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Ogun Land</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Marvellous Crib</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-2 suite">
                 <ul class="items no-head">
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">London Standard</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Beach View</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Club Suites</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Ogun Land</a>
                     </li>
                     <li class="list-items">
-                        <a href="#">One</a>
+                        <a href="#">Marvellous Crib</a>
                     </li>
                 </ul>
             </div>
         </div>
+        <p class="center">&copy; HNG 2020</p>
     </div>
 </body>
-
+<script src="main.js"></script>
 </html>
